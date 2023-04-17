@@ -13,6 +13,7 @@
 		FBD631D529E8C64E0000BAC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD631D329E8C64E0000BAC8 /* Main.storyboard */; };
 		FBD631D729E8C64F0000BAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD631D629E8C64F0000BAC8 /* Assets.xcassets */; };
 		FBD631DA29E8C64F0000BAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD631D829E8C64F0000BAC8 /* LaunchScreen.storyboard */; };
+		FBEBB5C029EDD58B00584CE3 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBB5BF29EDD58B00584CE3 /* Components.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FBD631D629E8C64F0000BAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD631D929E8C64F0000BAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD631DB29E8C64F0000BAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEBB5BF29EDD58B00584CE3 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FBD631CC29E8C64E0000BAC8 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				FBEBB5BE29EDD55400584CE3 /* Components */,
 				FBD631CD29E8C64E0000BAC8 /* AppDelegate.swift */,
 				FBD631CF29E8C64E0000BAC8 /* SceneDelegate.swift */,
 				FBD631D129E8C64E0000BAC8 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				FBD631DB29E8C64F0000BAC8 /* Info.plist */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		FBEBB5BE29EDD55400584CE3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FBEBB5BF29EDD58B00584CE3 /* Components.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD631D229E8C64E0000BAC8 /* ViewController.swift in Sources */,
+				FBEBB5C029EDD58B00584CE3 /* Components.swift in Sources */,
 				FBD631CE29E8C64E0000BAC8 /* AppDelegate.swift in Sources */,
 				FBD631D029E8C64E0000BAC8 /* SceneDelegate.swift in Sources */,
 			);
